@@ -16,10 +16,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -82,7 +80,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13364}
     - Class: 114
-      Script: {instanceID: 27004}
+      Script: {instanceID: 13436}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -636,16 +634,16 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
-      Hash: c3d3430df9e3ea95e3e3d587961390fb
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: PlayableTrack
-  - hash:
-      serializedVersion: 2
       Hash: 97cbbd25f70f89adfe61eeb41e9c0e47
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: atk
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
   platform: 20
   scenePathNames:
   - "Assets/\u5834\u666F/\u6280\u80FD\u7279\u6548.unity"
